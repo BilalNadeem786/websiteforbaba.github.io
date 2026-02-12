@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Baba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="background-confetti" aria-hidden="true"></div>
+    <main class="card-wrap">
+      <section id="card1" class="card active">
+        <p class="eyebrow">14 February 1973</p>
+        <h1>Happy Birthday, Baba!</h1>
+        <p class="subtitle">I made a colorful little celebration just for you.</p>
+        <button class="btn primary" id="revealBtn">Open the surprise</button><br><br>
+        <p class="subtitle">From: Bilal</p>
+      </section>
+
+      <section id="card2" class="card">
+        <p class="eyebrow">Birthday magic</p>
+        <h1>How shall we start?</h1>
+        <p class="subtitle" id="card2Subtitle">Pick a wish to begin the celebration.</p>
+        <div class="btn-area">
+          <button class="btn yes" id="yesBtn">Light the candles</button>
+          <button class="btn no" id="noBtn">Read my message</button>
+        </div>
+      </section>
+
+      <section id="card3" class="card">
+        <p class="eyebrow" id="card3Eyebrow">Candlelight moment</p>
+        <h1 class="beg-text" id="card3Title">Make a wish</h1>
+        <p class="subtitle" id="card3Message">
+          Close your eyes, take a deep breath, and soak in all the love.
+        </p>
+        <svg class="beg-img" viewBox="0 0 260 200" role="img" aria-label="Birthday cake">
+          <rect width="260" height="200" rx="28" fill="#fff2d9" />
+          <rect x="55" y="92" width="150" height="70" rx="18" fill="#ffd0a6" />
+          <rect x="75" y="62" width="110" height="40" rx="14" fill="#ff9fca" />
+          <rect x="118" y="32" width="24" height="34" rx="10" fill="#7dd3fc" />
+          <path d="M130 32 L123 14 L137 14 Z" fill="#fbbf24" />
+          <circle cx="90" cy="112" r="5" fill="#fb7185" />
+          <circle cx="115" cy="120" r="5" fill="#34d399" />
+          <circle cx="150" cy="112" r="5" fill="#60a5fa" />
+          <circle cx="170" cy="122" r="5" fill="#f97316" />
+        </svg>
+        <button class="btn primary" id="tryAgainBtn">Release the confetti</button>
+      </section>
+
+      <section id="card4" class="card">
+        <h1 class="final-title">Happy Birthday Baba!</h1>
+        <p class="subtitle">
+          Thank you for your love, strength, and the way you always cheer us on.
+        </p>
+        <p class="subtitle">May this year bring you joy, health, and endless smiles.</p>
+        <div class="love-gallery">
+          <svg class="love-photo tilt-one" viewBox="0 0 200 200" role="img" aria-label="Balloon">
+            <rect width="200" height="200" rx="26" fill="#fff4d6" />
+            <circle cx="100" cy="80" r="40" fill="#60a5fa" />
+            <path d="M100 120 L100 160" stroke="#1e293b" stroke-width="4" />
+            <path d="M90 160 Q100 170 110 160" fill="none" stroke="#1e293b" stroke-width="4" />
+          </svg>
+          <svg class="love-photo tilt-two" viewBox="0 0 200 200" role="img" aria-label="Cake slice">
+            <rect width="200" height="200" rx="26" fill="#e0f2fe" />
+            <path d="M60 140 L140 140 L110 70 Z" fill="#fda4af" />
+            <circle cx="100" cy="90" r="6" fill="#facc15" />
+          </svg>
+          <svg class="love-photo tilt-three" viewBox="0 0 200 200" role="img" aria-label="Star">
+            <rect width="200" height="200" rx="26" fill="#fef9c3" />
+            <path
+              d="M100 45 L118 85 L162 90 L128 116 L138 160 L100 138 L62 160 L72 116 L38 90 L82 85 Z"
+              fill="#f97316"
+            />
+          </svg>
+          <svg class="love-photo tilt-four" viewBox="0 0 200 200" role="img" aria-label="Gift">
+            <rect width="200" height="200" rx="26" fill="#fae8ff" />
+            <rect x="60" y="80" width="80" height="70" rx="12" fill="#a855f7" />
+            <rect x="95" y="60" width="10" height="90" fill="#fdf4ff" />
+            <path d="M100 80 C90 50 70 60 70 80 C70 100 90 95 100 80Z" fill="#f472b6" />
+            <path d="M100 80 C110 50 130 60 130 80 C130 100 110 95 100 80Z" fill="#f472b6" />
+          </svg>
+          <svg class="love-photo tilt-five" viewBox="0 0 200 200" role="img" aria-label="Sparkles">
+            <rect width="200" height="200" rx="26" fill="#dcfce7" />
+            <path d="M100 60 L110 90 L140 100 L110 110 L100 140 L90 110 L60 100 L90 90 Z" fill="#22c55e" />
+            <circle cx="150" cy="60" r="10" fill="#4ade80" />
+            <circle cx="50" cy="140" r="12" fill="#86efac" />
+          </svg>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
